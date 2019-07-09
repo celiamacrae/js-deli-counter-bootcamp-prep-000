@@ -21,7 +21,7 @@ function currentLine(line){
   }
   else{
     for(var i=0; i<line.length; i++){
-      current = current + `${i+1}. ${line[i]}`
+      current = current + `${i+1}. ${line[i]}, `
     }
     return current
   }
