@@ -8,7 +8,7 @@ function nowServing(line){
     return "There is nobody waiting to be served!"
   }
   else{
-    upNext = line[0]
+    var upNext = line[0]
     line.shift()
     return upNext
   }
