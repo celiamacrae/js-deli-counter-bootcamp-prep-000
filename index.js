@@ -23,6 +23,6 @@ function currentLine(line){
     for(var i=0; i<line.length-1; i++){
       current = current + `${i+1}. ${line[i]}, `
     }
-    return current + `${line.length}. ${line[line.length -1]`
+    return current + `${line.length}. ${line[line.length -1]}`
   }
 }
