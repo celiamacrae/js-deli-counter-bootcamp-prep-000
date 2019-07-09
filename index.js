@@ -20,9 +20,9 @@ function currentLine(line){
     return "The line is currently empty."
   }
   else{
-    for(var i=0; i<line.length; i++){
+    for(var i=0; i<line.length-1; i++){
       current = current + `${i+1}. ${line[i]}, `
     }
-    return current
+    return current + `${line.length}. ${line[line.length -1]`
   }
 }
